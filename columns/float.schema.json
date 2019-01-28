@@ -1,0 +1,19 @@
+{
+  "$id": "columns/float.schema.json",
+  "allOf": [{ "$ref": "base.schema.json" }],
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "decimal",
+        "float"
+      ]
+    },
+    "precision": { "type": "integer" },
+    "scale": { "type": "integer" },
+    "name": {},
+    "primary": {},
+    "unique": {}
+  },
+  "additionalProperties": false
+}

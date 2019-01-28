@@ -1,0 +1,24 @@
+{
+  "$id": "columns/text.json",
+  "allOf": [{ "$ref": "base.json" }],
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "text"
+      ]
+    },
+    "textType": {
+      "type": "string",
+      "enum": [
+        "text",
+        "mediumtext",
+        "longtext"
+      ]
+    },
+    "name": {},
+    "primary": {},
+    "unique": {}
+  },
+  "additionalProperties": false
+}

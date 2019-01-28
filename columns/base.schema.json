@@ -1,0 +1,10 @@
+{
+  "$id": "columns/base.json",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "type": { "type": "string" },
+    "primary": { "type": "boolean" }
+  },
+  "required": ["name", "type"]
+}

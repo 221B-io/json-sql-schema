@@ -1,0 +1,19 @@
+{
+  "$id": "table.schema.json",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+    },
+    "columns": {
+      "type": "array",
+      "items": { 
+        "anyOf": [
+          { "$ref": "columns/text.schema.json" },
+          { "$ref": "columns/string.schema.json" },
+          { "$ref": "columns/float.schema.json" }
+        ]
+      }
+    }
+  }
+}
