@@ -1,5 +1,5 @@
 {
-  "$id": "columns/base.json",
+  "$id": "columns/_base.json",
   "type": "object",
   "properties": {
     "name": { "type": "string" },

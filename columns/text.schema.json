@@ -1,6 +1,6 @@
 {
   "$id": "columns/text.json",
-  "allOf": [{ "$ref": "base.json" }],
+  "allOf": [{ "$ref": "_base.schema.json" }],
   "properties": {
     "type": {
       "type": "string",
