@@ -4,21 +4,11 @@
   "properties": {
     "type": {
       "type": "string",
-      "enum": [
-        "text"
-      ]
+      "enum": ["text"]
     },
     "textType": {
       "type": "string",
-      "enum": [
-        "text",
-        "mediumtext",
-        "longtext"
-      ]
-    },
-    "name": {},
-    "primary": {},
-    "unique": {}
-  },
-  "additionalProperties": false
+      "enum": ["text", "mediumtext", "longtext"]
+    }
+  }
 }

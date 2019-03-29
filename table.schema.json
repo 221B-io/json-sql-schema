@@ -3,17 +3,19 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string",
+      "type": "string"
     },
     "columns": {
       "type": "array",
-      "items": { 
+      "items": {
         "anyOf": [
           { "$ref": "columns/text.schema.json" },
           { "$ref": "columns/string.schema.json" },
+          { "$ref": "columns/integer.schema.json" },
           { "$ref": "columns/float.schema.json" }
         ]
       }
     }
-  }
+  },
+  "additionalProperties": false
 }

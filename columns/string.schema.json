@@ -1,18 +1,17 @@
 {
   "$id": "columns/string.schema.json",
-  "allOf": [{ "$ref": "_base.schema.json" }],
-  "properties": {
-    "type": {
-      "type": "string",
-      "enum": [
-        "binary",
-        "string"
-      ]
-    },
-    "length": { "type": "integer" },
-    "name": {},
-    "primary": {},
-    "unique": {}
-  },
-  "additionalProperties": false
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["binary", "string"]
+        },
+        "length": {
+          "type": "integer"
+        }
+      }
+    }
+  ]
 }

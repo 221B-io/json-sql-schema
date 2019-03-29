@@ -3,14 +3,12 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string",
+      "type": "string"
     },
     "tables": {
       "type": "array",
-      "items": { 
-        "allOf": [
-          { "$ref": "table.schema.json" }
-        ]
+      "items": {
+        "allOf": [{ "$ref": "table.schema.json" }]
       }
     }
   }

@@ -4,7 +4,10 @@
   "properties": {
     "name": { "type": "string" },
     "type": { "type": "string" },
-    "primary": { "type": "boolean" }
+    "primary": { "type": "boolean" },
+    "unique": { "type": "boolean" },
+    "default": {},
+    "defaultTo": {}
   },
   "required": ["name", "type"]
 }

@@ -4,16 +4,9 @@
   "properties": {
     "type": {
       "type": "string",
-      "enum": [
-        "decimal",
-        "float"
-      ]
+      "enum": ["decimal", "float"]
     },
     "precision": { "type": "integer" },
-    "scale": { "type": "integer" },
-    "name": {},
-    "primary": {},
-    "unique": {}
-  },
-  "additionalProperties": false
+    "scale": { "type": "integer" }
+  }
 }
