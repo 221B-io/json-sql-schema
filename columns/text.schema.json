@@ -1,14 +1,18 @@
 {
   "$id": "columns/text.json",
-  "allOf": [{ "$ref": "_base.schema.json" }],
-  "properties": {
-    "type": {
-      "type": "string",
-      "enum": ["text"]
-    },
-    "textType": {
-      "type": "string",
-      "enum": ["text", "mediumtext", "longtext"]
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["text"]
+        },
+        "textType": {
+          "type": "string",
+          "enum": ["text", "mediumtext", "longtext"]
+        }
+      }
     }
-  }
+  ]
 }
