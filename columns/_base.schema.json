@@ -7,7 +7,9 @@
     "primary": { "type": "boolean" },
     "unique": { "type": "boolean" },
     "default": {},
-    "defaultTo": {}
+    "defaultTo": {},
+    "nullable": { "type": "boolean" }
   },
-  "required": ["name", "type"]
+  "required": ["name", "type"],
+  "additionalProperties": false
 }

@@ -1,8 +1,10 @@
 {
   "$id": "columns/string.schema.json",
-  "allOf": [
-    { "$ref": "_base.schema.json" },
-    {
+  "$merge": {
+    "source": {
+      "$ref": "_base.schema.json"
+    },
+    "with": {
       "properties": {
         "type": {
           "type": "string",
@@ -13,5 +15,5 @@
         }
       }
     }
-  ]
+  }
 }

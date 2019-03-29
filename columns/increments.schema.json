@@ -1,0 +1,16 @@
+{
+  "$id": "columns/integer.schema.json",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["increments"]
+        }
+      }
+    }
+  ]
+}

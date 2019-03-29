@@ -1,0 +1,21 @@
+{
+  "$id": "columns/_foreignKey.schema.json",
+  "type": "object",
+  "$merge": {
+    "source": { "$ref": "_base.schema.json" },
+    "with": {
+      "properties": {
+        "references": {
+          "type": "string"
+        },
+        "inTable": {
+          "type": "string"
+        },
+        "onDelete": {
+          "type": "string",
+          "enum": ["CASCADE", "RESTRICT", "SET NULL", "NO ACTION"]
+        }
+      }
+    }
+  }
+}
