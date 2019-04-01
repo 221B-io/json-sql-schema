@@ -1,6 +1,5 @@
 {
   "$id": "columns/_foreignKey.schema.json",
-  "type": "object",
   "$merge": {
     "source": { "$ref": "_base.schema.json" },
     "with": {
