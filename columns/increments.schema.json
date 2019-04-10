@@ -1,5 +1,5 @@
 {
-  "$id": "columns/integer.schema.json",
+  "$id": "columns/increments.schema.json",
   "$merge": {
     "source": { "$ref": "_base.schema.json" },
     "with": {

@@ -1,0 +1,23 @@
+{
+  "$id": "columns/foreign.schema.json",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "foreign": {
+      "type": "string"
+    },
+    "references": {
+      "type": "string"
+    },
+    "inTable": {
+      "type": "string"
+    },
+    "onDelete": {
+      "type": "string"
+    }
+  },
+  "required": ["foreign", "references", "inTable"],
+  "additionalProperties": false
+}

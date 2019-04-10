@@ -11,8 +11,15 @@
         "anyOf": [
           { "$ref": "columns/text.schema.json" },
           { "$ref": "columns/string.schema.json" },
-          { "$ref": "columns/integer.schema.json" },
-          { "$ref": "columns/float.schema.json" }
+          {
+            "$ref": "columns/integer.schema.json"
+          },
+          { "$ref": "columns/increments.schema.json" },
+          {
+            "$ref": "columns/float.schema.json"
+          },
+          { "$ref": "columns/datetime.schema.json" },
+          { "$ref": "columns/foreign.schema.json" }
         ]
       }
     }
